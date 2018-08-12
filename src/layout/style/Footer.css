@@ -1,0 +1,117 @@
+#footer {
+    background-image: url(../../assets/img/footer-background-img.jpg);
+  
+    background-repeat: none;
+}
+
+.shewX-div-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    border-left: 1px solid #000;
+    -webkit-transform: skewX(15deg);
+    -moz-transform: skewX(15deg);
+    transform: skewX(15deg);
+}
+
+.shewX-div-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 105%;
+    height: 100%;
+    border-right: 1px solid #000;
+    z-index: 1;
+    -webkit-transform: skewX(-15deg);
+    -moz-transform: skewX(-15deg);
+    transform: skewX(-15deg);
+}
+
+.footer-w {
+    position: relative;
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.footer-nav {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 50%;
+    align-items: center;
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .06em;
+}
+
+.footer-nav div {
+    padding: 30px;
+    cursor: pointer;
+    z-index: 10;
+    position: relative;
+    transform: all 0.5s;
+}
+
+.footer-nav div:hover::before {
+    opacity: 1 !important;
+}
+
+.footer-nav div::before {
+    -webkit-transition: opacity 0.5s cubic-bezier(.645,.045,.355,1);
+  -moz-transition: opacity 0.5s cubic-bezier(.645,.045,.355,1);
+  transition: opacity 0.5s cubic-bezier(.645,.045,.355,1);
+    content: '';
+    position: absolute;
+    background-color: red;
+    bottom: 0px;
+    opacity: 0;
+    width: 100%;
+    height: 5px;
+    left: 0px;
+    -webkit-transform: skewX(15deg);
+    -moz-transform: skewX(15deg);
+    transform: skewX(15deg);
+}
+
+.footer-nav::before {
+    content: '';
+    position: absolute;
+    background-color: #000;
+    width: 100%;
+    height: 5px;
+    bottom: 0px;
+}
+
+.footer-nav-contact {
+    display: flex;
+    align-items: center;
+    height: 50%;
+    justify-content: center;
+}
+
+.footer-nav-contact div {
+    color: white;
+    margin: 0px 15px;
+    font-size: 15px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.footer-nav-contact i:hover {
+    color: red;
+}
+
+.footer-line {
+    color: white;
+    text-align: center;
+    padding: 25px 0px;
+}
+
+.footer-line .phone {
+    margin-bottom: 15px;
+}

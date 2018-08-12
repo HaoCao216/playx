@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+#shop {
+    background-image: url(../../assets/img/h2-background-img-2.jpg);
+    position: static;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.shop-page {
+    box-shadow: 0 0 20px rgba(255,255,255,.7);
+    background-color: rgba(0, 0, 0, 0.95);
+    max-width: 1200px;
+    color: #fff;
+    border-radius: 7px;
+    margin: 100px auto 50px auto;
+    padding: 15px;
+    height: 500px;;
+    position: relative;
+}
+
+.btn-buy {
+    display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -45px;
+}
+
+.btn-buy div {
+    border: 1px solid red;
+    border-bottom: none;
+    font-weight: bolder;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 18px;
+    transition:  background-color 0.5s;
+}
+
+.btn-buy div:hover {
+    background-color: red;
+    box-shadow: 0 0 60px rgba(255, 24, 24, 0.733);
+} 
+
+.btn-buy .active {
+    background-color: red;
+    box-shadow: 0 0 50px rgba(255, 24, 24, 0.733);
+    z-index: 3;
+    padding: 10px 20px 10px 20px !important;
+}
+
+.btn-buy div span{
+    display: block;
+}
+
+.btn-buy .buy-gold {
+    position: relative;
+    z-index: 2;
+    left: 20px;
+    padding: 10px 40px 10px 20px;
+    -webkit-transform: skew(-20deg);
+	   -moz-transform: skew(-20deg);
+	     -o-transform: skew(-20deg);
+}
+
+.btn-buy .buy-gold span {
+    -webkit-transform: skew(20deg);
+	   -moz-transform: skew(20deg);
+	     -o-transform: skew(20deg);
+}
+
+.btn-buy .buy-gem {
+    position: relative;
+    z-index: 2;
+    padding: 10px 20px 10px 40px;
+    -webkit-transform: skew(20deg);
+	   -moz-transform: skew(20deg);
+	     -o-transform: skew(20deg);
+}
+
+.btn-buy .buy-gem span{
+    -webkit-transform: skew(-20deg);
+	   -moz-transform: skew(-20deg);
+	     -o-transform: skew(-20deg);
+}
+
+.shop-body-tab {
+    display: flex;
+    padding: 40px 0px;
+}
+
+.shop-body-tab__left {
+    width: 50%;
+}
+
+.useful {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.shop-body-tab__right {
+    width: 50%;
+    text-align: left;
+    padding: 40px 0px;
+}
+
+.shop-body-tab__right li{
+   line-height: 35px;
+}
+
+.shop-body-tab__right a {
+    color: #039be5;
+}
+
+.title-shop {
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 10px 0px;
+}
+
+.shop-body__top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shop-body__top div:first-child {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: red;
+    font-size: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.shop-body__top div:first-child:hover {
+    box-shadow: 0 0 50px rgba(255, 24, 24, 0.733);
+}
+
+.border-wall {
+    width: 2px;
+    background-color: white;
+    margin: 25px 20px;
+}
+
+.shop-body__bottom {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center
+}
+
+.shop-body__bottom img {
+    margin-right: 30px;
+}
+
+.select-option {
+    text-align: left;
+    width: 250px;
+    color: black;
+}
+
+.input-vang {
+    margin: 30px 0px;
+}
+
+.input-vang input {
+    padding: 10.5px;
+    border-radius: 4px;
+    box-shadow: none;
+    width: 228px;
+    border: 0px;
+    font-size: 16px;
+    outline: none;
+}
+
+.input-vang input::placeholder {
+    color: black;
+}
+
+.select-title {
+    color: white;
+    margin: 5px 0px;
+    font-size: 20px;
+}
+
+.buy-btn {
+    float: right;
+    background-color: red;
+    padding: 10px 50px;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.buy-btn:hover {
+    box-shadow: 0 0 50px rgba(255, 24, 24, 0.733);
+}
+
+.active-tab {
+    display: block !important;
+}
+
+.shop-body-tab__left {
+    display: none;
+}

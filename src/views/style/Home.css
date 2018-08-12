@@ -1,0 +1,227 @@
+.first-page {
+  height: calc(100vh - 120px);
+}
+
+.carousel-tab {
+  overflow: hidden;
+}
+
+.carousel-tab .first-img {
+  background-image: url(http://playerx.edge-themes.com/wp-content/uploads/2018/06/h1-slider-1-background-img.jpg);
+  background-repeat: no-repeat;
+  background-position: 70% 50%;
+  background-size: cover;
+  height: calc(100vh - 264px);
+}
+
+.owl-img img {
+  width: 150px;
+}
+
+.slider-show-bg {
+  color: white;
+  text-align: center;
+  padding: 12px 0px;
+  background-image: url(http://playerx.edge-themes.com/wp-content/uploads/2018/06/p3-background-img-1.jpg);
+}
+
+.slider-info {
+  display: flex;
+  justify-content: center
+}
+
+.slider-show-bg__title {
+  font-size: 17px;
+  padding: 10px 0px;
+}
+
+.slider-info div {
+  padding: 5px 30px;
+}
+
+.slider-info div div:first-child {
+  color: orange;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.slider-show {
+  max-width: 1100px;
+  margin: 0 auto;
+  z-index: 20;
+}
+
+.site-clone-w {
+  position: relative;
+  max-width: 1100px;
+  margin: 0 auto;
+  z-index: 20;
+  text-align: center;
+  padding: 50px 0px;
+  height: 100vh;
+}
+
+.background-site-clone {
+  background-image: url(http://playerx.edge-themes.com/wp-content/uploads/2018/06/h2-background-img-1.jpg);
+  background-position: 50% -52px;
+  position: static;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+.site-clone__title{
+  font-size: 45px;
+  line-height: 1.13em;
+  margin: 20px 0;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.border-line {
+  position: relative;
+  margin: 10px auto;
+  width:150px;
+  background-color: white;
+  height: 1px;
+}
+
+.border-line::before {
+  content: '';
+  position: absolute;
+  width: 100px;
+  left: 50%;
+  transform: translateX(-50%) rotate(180deg);
+  bottom: -2px;
+  border-bottom: 2px solid white;
+	border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+}
+
+.buy-form {
+  display: flex;
+  justify-content: center;
+  margin-top: 130px;
+}
+
+.buy-form__child {
+  cursor: pointer;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 17px;
+  line-height: 1.2em;
+  margin: 0px 25px;
+}
+
+.buy-form__child:hover > div {
+  -webkit-transition: .5s cubic-bezier(.22,.61,.36,1);
+  -moz-transition: .5s cubic-bezier(.22,.61,.36,1);
+  transition: .5s cubic-bezier(.22,.61,.36,1);
+  text-shadow: 0 0 20px rgba(255,255,255,.7);
+}
+
+.top-site {
+  color: white;
+  display: flex;
+  max-width: 1200px;
+  margin: auto;
+  height: 100vh;
+  justify-content: center;
+}
+
+.top-site h2 {
+  font-size: 20px;
+  line-height: 1.11em;
+  margin: 10px 0;
+  color: #fff;
+  -webkit-transition: .5s cubic-bezier(.22,.61,.36,1);
+  -moz-transition: .5s cubic-bezier(.22,.61,.36,1);
+  transition: .5s cubic-bezier(.22,.61,.36,1);
+  font-weight: 700;
+  text-transform: uppercase;
+  animation-duration: 1s;
+  animation-name: changeStyle;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes changeStyle {
+  from {
+    text-shadow: none;
+  }
+
+  to {
+    text-shadow: 0 0 20px rgba(255,255,255,.7);
+  }
+}
+
+.top-site__child {
+  width: 50%;
+  text-align: center;
+  margin: 50px 25px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 8px;
+}
+
+.flex-layout {
+  margin: 0px 70px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.flex-layout div {
+  margin: 1px 15px;
+}
+
+.flex-layout div:first-child {
+  width: 20px;
+  height: 20px;
+  font-weight: bold;
+  border-radius: 50%;
+  background-color: white;
+  color: black;
+}
+
+.flex-layout .name{
+  padding: 13px 0px;
+  font-size: 17px;
+}
+
+.flex-layout .avatar img{
+  width: 46px;
+  border-radius: 50%;
+}
+
+.flex-layout:hover > .name {
+  text-shadow: 0 0 20px rgba(255,255,255,.7);
+}
+.flex-layout:hover > div:first-child {
+  box-shadow: 0 0 20px rgba(255,255,255,.7);
+}
+
+.flex-layout:nth-child(1) {
+  color: rgb(255, 255, 0)
+}
+
+.flex-layout:nth-child(1) div:first-child {
+  background-color: rgb(255, 255, 0)
+}
+
+.flex-layout:nth-child(2) {
+  color: silver
+}
+
+.flex-layout:nth-child(2) div:first-child {
+  background-color: silver
+}
+
+.flex-layout:nth-child(3) {
+  color: coral
+}
+
+.flex-layout:nth-child(3) div:first-child {
+  background-color: coral
+}
