@@ -30,7 +30,7 @@
 }
 
 .btn-buy div {
-    border: 1px solid red;
+    border: 1px solid #ff9800;
     border-bottom: none;
     font-weight: bolder;
     text-transform: uppercase;
@@ -40,13 +40,13 @@
 }
 
 .btn-buy div:hover {
-    background-color: red;
-    box-shadow: 0 0 60px rgba(255, 24, 24, 0.733);
+    background-color: #ff9800;
+    box-shadow: 0 0 60px rgba(255, 152, 0, 0.733);
 } 
 
 .btn-buy .active {
-    background-color: red;
-    box-shadow: 0 0 50px rgba(255, 24, 24, 0.733);
+    background-color: #ff9800;
+    box-shadow: 0 0 50px rgba(255, 152, 0, 0.733);
     z-index: 3;
     padding: 10px 20px 10px 20px !important;
 }
@@ -130,14 +130,14 @@
 .shop-body__top div:first-child {
     padding: 10px 20px;
     margin: 10px;
-    background-color: red;
+    background-color: #ff9800;
     font-size: 20px;
     border-radius: 8px;
     cursor: pointer;
 }
 
 .shop-body__top div:first-child:hover {
-    box-shadow: 0 0 50px rgba(255, 24, 24, 0.733);
+    box-shadow: 0 0 50px rgba(255, 152, 0, 0.733);
 }
 
 .border-wall {
@@ -188,7 +188,7 @@
 
 .buy-btn {
     float: right;
-    background-color: red;
+    background-color: #ff9800;
     padding: 10px 50px;
     color: #fff;
     border: none;
@@ -198,7 +198,7 @@
 }
 
 .buy-btn:hover {
-    box-shadow: 0 0 50px rgba(255, 24, 24, 0.733);
+    box-shadow: 0 0 50px rgba(255, 152, 0, 0.733);
 }
 
 .active-tab {

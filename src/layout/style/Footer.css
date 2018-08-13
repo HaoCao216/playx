@@ -67,7 +67,7 @@
   transition: opacity 0.5s cubic-bezier(.645,.045,.355,1);
     content: '';
     position: absolute;
-    background-color: red;
+    background-color: rgb(255, 152, 0);
     bottom: 0px;
     opacity: 0;
     width: 100%;
@@ -103,7 +103,7 @@
 }
 
 .footer-nav-contact i:hover {
-    color: red;
+    color: rgb(255, 152, 0);
 }
 
 .footer-line {
