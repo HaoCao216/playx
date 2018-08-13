@@ -18,7 +18,7 @@ class MuaNgoc extends Component {
                     <div>200,000,000 Vàng</div>
                 </div>
                 <div className="shop-body__bottom">
-                    <div><img src={BanVang} /></div>
+                    <div><img alt="12" src={BanVang} /></div>
                     <div className="select-option">
                         <div className="select-title">Máy chủ</div>
                         <Select

@@ -18,7 +18,7 @@ class MuaVang extends Component {
                     <div> Ký : 204 Ngọc</div>
                 </div>
                 <div className="shop-body__bottom">
-                    <div><img src={BanNgoc} /></div>
+                    <div><img alt="123" src={BanNgoc} /></div>
                     <div className="select-option">
                         <div className="select-title">Máy chủ</div>
                         <Select

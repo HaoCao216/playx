@@ -78,19 +78,19 @@ class Home extends Component {
             <div className="border-line"></div>
             <div className="buy-form">
               <div className="buy-form__child">
-                <img src="/h2-custom-icon-img-1.png" />
+                <img alt="123" src="/h2-custom-icon-img-1.png" />
                 <div>Mua Vàng</div>
               </div>
               <div className="buy-form__child">
-                <img src="/h2-custom-icon-img-2.png" />
+                <img alt="123" src="/h2-custom-icon-img-2.png" />
                 <div>Mua Ngọc</div>
               </div>
               <div className="buy-form__child">
-                <img src="/h2-custom-icon-img-3.png" />
+                <img alt="123" src="/h2-custom-icon-img-3.png" />
                 <div>Nạp Tiền</div>
               </div>
               <div className="buy-form__child">
-                <img src="/h2-custom-icon-img-4.png" />
+                <img alt="123" src="/h2-custom-icon-img-4.png" />
                 <div>Đăng Nhập</div>
               </div>
             </div>
@@ -104,7 +104,7 @@ class Home extends Component {
                     <div key={index} className="flex-layout">
                       <div>{index}</div>
                       <div className="avatar">
-                        <img src="/h2-custom-icon-img-1.png"/>
+                        <img alt="123" src="/h2-custom-icon-img-1.png"/>
                       </div>
                       <div className="name">
                         {top.name}

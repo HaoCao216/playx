@@ -71,6 +71,15 @@
   border-bottom: 1px solid rgba(203,203,203,.1);
 }
 
+.edgtf-divided-right-inner-border-holder::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 37%;
+  width: 100%;
+  border-bottom: 1px solid rgba(203,203,203,.1);
+}
+
 .edgtf-divided-right-inner-border-holder {
   position: absolute;
   top: 0;
