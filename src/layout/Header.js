@@ -28,7 +28,8 @@ class Header extends Component {
             <div className="navbar-outer-left">
               <div className="edgtf-divided-left-inner-border-holder"></div>
               <div className="navbar-follow">
-                <div><span>follow us on : </span></div>
+                <div><span>THEO DÕI :
+ </span></div>
                 <div><i className="fa fa-facebook-square"/></div>
                 <div><i className="fa fa-youtube-play"/></div>
                 <div><i className="fa fa-twitch"/></div>
@@ -53,7 +54,7 @@ class Header extends Component {
             <div className="navbar-outer-right">
               <div className="edgtf-divided-right-inner-border-holder"></div>
               <div className="navbar-follow">
-                <div className="navbar-follow__content">this is playerx, a theme for games, clans & esports</div>
+                <div className="navbar-follow__content">MR.DŨNG - HOTLINE: 0966762758</div>
               </div>
               <div className="navbar-right">
                 <div>

@@ -74,7 +74,7 @@ class Home extends Component {
         </div>
         <div className="background-site-clone">
           <div className="site-clone-w">
-            <div className="site-clone__title">FIND OUR GAMES ON APPSTORE</div>
+            <div className="site-clone__title">LỰA CHỌN MỤC CẦN MUA</div>
             <div className="border-line"></div>
             <div className="buy-form">
               <div className="buy-form__child">
