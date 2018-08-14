@@ -2,18 +2,25 @@ import React, { Component } from 'react';
 import './style/Shop.css';
 import MuaVang from '../components/MuaVang'
 import MuaNgoc from '../components/MuaNgoc'
+import { Link } from 'react-router-dom'
 
 class Shop extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      active: true
+      active: 'vang'
     }
   }
 
-  changeTab = () => {
+  changeTabVang = () => {
     this.setState({
-      active: !this.state.active
+      active: 'vang'
+    })
+  }
+
+  changeTabNgoc = () => {
+    this.setState({
+      active: 'ngoc'
     })
   }
 
@@ -22,18 +29,22 @@ class Shop extends Component {
       <div id="shop" style={{textAlign: 'center'}}>
         <div className="shop-page">
           <div className="btn-buy">
-            <div onClick={this.changeTab} className={this.state.active ? 'buy-gold active' : 'buy-gold'}>
-              <span>Mua Vàng</span>
-            </div>
-            <div onClick={this.changeTab} className={this.state.active ? 'buy-gem' : 'buy-gem active'}>
-              <span>Mua Ngọc</span>
-            </div>
+            <Link to="/shop/vang" className="link-shop">
+              <div onClick={this.changeTabVang} className={this.state.active === 'vang' ? 'buy-gold active' : 'buy-gold'}>
+                <span>Mua Vàng</span>
+              </div>
+            </Link>
+            <Link to="/shop/ngoc" className="link-shop">
+              <div onClick={this.changeTabNgoc} className={this.state.active === 'ngoc' ? 'buy-gem active' : 'buy-gem'}>
+                <span>Mua Ngọc</span>
+              </div>
+            </Link>
           </div>
           <div className="shop-body">
             <div className="title-shop">Dịch Vụ Bán Vàng</div>
             <div className="shop-body-tab">
-              <MuaVang active={this.state.active}/>
-              <MuaNgoc active={this.state.active}/>
+              <MuaVang type={this.props.match.params.type}/>
+              <MuaNgoc type={this.props.match.params.type}/>
               <div className="border-wall"/>
               <div className="shop-body-tab__right">
                 <div className="useful">Mô tả :</div>

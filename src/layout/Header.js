@@ -40,10 +40,10 @@ class Header extends Component {
                   <Link to="/">Trang chủ</Link>
                 </div>
                 <div>
-                  <Link to="/shop">Mua Vàng</Link>
+                  <Link to="/shop/vang">Mua Vàng</Link>
                 </div>
                 <div>
-                  <Link to="/shop">Mua Ngọc</Link>
+                  <Link to="/shop/ngoc">Mua Ngọc</Link>
                 </div>
               </div>
             </div>

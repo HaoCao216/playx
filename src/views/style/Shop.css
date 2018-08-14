@@ -210,3 +210,13 @@
 .shop-body-tab__left {
     display: none;
 }
+
+.link-shop{
+    color: white;
+}
+
+.link-shop:hover {
+    color: white;
+    text-shadow: 0 0 50px rgba(255, 255, 255, 0.733);
+    text-decoration: none;
+}

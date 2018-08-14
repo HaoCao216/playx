@@ -11,7 +11,7 @@ class App extends Component {
         <Header />
         <Switch>
           <Route exact path='/' component={Home}/>
-          <Route path='/shop' component={Shop}/>
+          <Route path='/shop/:type' render={(props) => <Shop {...props} />}/>
         </Switch>
         <Footer />
       </main>
